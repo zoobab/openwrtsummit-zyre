@@ -3,6 +3,11 @@ About
 
 Presentation "F* the cloud, stay local" at OpenWRT Summit 2017, Prague
 
+Slides
+======
+
+![00-zoobabdotcom](00-zoobabdotcom.png)
+
 Videos
 ======
 
