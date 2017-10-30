@@ -38,6 +38,7 @@ Videos
 
 * Rebooting the GL-AR150 cluster: https://www.youtube.com/watch?v=FV3zgVt9HHA
 * GL-AR150 blinken lichten: https://www.youtube.com/watch?v=3CRjeFdS4VY
+* This presentation "F* the cloud, stay local - OpenWrt Summit 2017": https://www.youtube.com/watch?v=6UxQmvl4aaY
 
 Links
 =====
