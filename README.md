@@ -49,9 +49,34 @@ Links
 Demo
 ====
 
-* docker run -it debian:9-102517_180216 /bin/bash
-* add peers to the network
-* one master -c to control them all
+* Run 3 containers as slaves:
+```
+$ docker run -d zoobab/glar150
+b6d495af00604457061bd13fce0867f097fccfe569c074c9869fb2c0c047bf4e
+$ docker run -d zoobab/glar150
+5af819f9d7123acc407aa6cefcb992ca2b59fc06a191b6dc4d5fd590cea95f44
+$ docker run -d zoobab/glar150
+cafe37cf9499d9f64f55b9154b84d93038912ae091033e2f09aecd97b71499cd
+```
+* one master -c to control them all:
+```
+$ docker run -it glard -c
+glard v1.0.1 -- GL-AR150 demo'n
+I: 17-11-01 17:52:04 using interface=eth0 my_uuid=C3A0AA7977B943D68AD5B7E1A5B8AEB4 my_name=C3A0AA
+I: 17-11-01 17:52:04 JOINED peer=5A793D
+I: 17-11-01 17:52:04 JOINED peer=CB5DA2
+I: 17-11-01 17:52:04 JOINED peer=9EA303
+```
+* you should then type the command "pwd" and observer that it is launched on the 3 slaves:
+
+```
+pwd
+9EA303: /
+
+CB5DA2: /
+
+5A793D: /
+```
 
 Future
 ======
