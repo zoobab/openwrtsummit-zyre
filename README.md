@@ -60,7 +60,7 @@ cafe37cf9499d9f64f55b9154b84d93038912ae091033e2f09aecd97b71499cd
 ```
 * one master -c to control them all:
 ```
-$ docker run -it glard -c
+$ docker run -it zoobab/glar150 -c
 glard v1.0.1 -- GL-AR150 demo'n
 I: 17-11-01 17:52:04 using interface=eth0 my_uuid=C3A0AA7977B943D68AD5B7E1A5B8AEB4 my_name=C3A0AA
 I: 17-11-01 17:52:04 JOINED peer=5A793D
